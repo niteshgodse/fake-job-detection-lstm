@@ -76,6 +76,7 @@ F1-score
 
 # Model Architecture
 
+```
 Embedding Layer
 ↓
 Bidirectional LSTM (128 units)
@@ -83,16 +84,18 @@ Bidirectional LSTM (128 units)
 Dense Layer (Sigmoid Activation)
 
 The Bidirectional LSTM helps the model understand context from both directions of the text.
+```
 
 # Model Performance
 
 Test Accuracy: 97.76%
-
+```
 Classification Summary:
 
 Class	Precision	Recall	F1-score
 Real Jobs	0.98	1.00	0.99
 Fake Jobs	0.90	0.63	0.74
+```
 
 The model performs well in detecting legitimate job postings and shows promising results in identifying fraudulent listings.
 
