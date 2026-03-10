@@ -114,11 +114,14 @@ Scikit-learn
 Natural Language Processing (NLP)
 
 # Project Structure
+```
 fake-job-detection-lstm
 │
 ├── fake_job_detection_lstm.ipynb
 ├── fake_job_postings.csv
 └── README.md
+```
+
 # Future Improvements
 
 Use Transformer models such as BERT
