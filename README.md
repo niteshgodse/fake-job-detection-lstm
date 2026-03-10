@@ -1,4 +1,4 @@
-# Fake Job Posting Detection using LSTM
+# Fake Job Posting Detection using RNN & LSTM
 
 This project builds a Deep Learning NLP model to detect fraudulent job postings from job listing data. The model analyzes job description text and predicts whether a job posting is real or fake using a Bidirectional LSTM neural network.
 
